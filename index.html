@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Survey Form</title>
+</head>
+<body>
+	<main id="maincont">
+		<div class="head">
+			<h1 id="title">Coronavirus Contact Tracing Form</h1>
+			<p id="description">Thank you for filling up this tracing form!</p>
+		</div>
+
+
+
+		<div id="formCont">
+
+			<div>
+			<form id="survey-form">
+
+					<label for="name" id="name-label">Name</label>
+					<br>
+					<input id="name" type="text" name="name" placeholder="Enter your name" size="50" required="">
+					<br>
+
+					<label for="email" id="email-label">Email</label>
+					<br>
+					<input id="email" type="Email" name="email" placeholder="Enter your email" size="50" required="">
+					<br>
+
+					<label for="number" id="number-label">Hours of sleep (Optional)</label>
+					<br>
+					<input id="number" type="number" min="0" max="24" placeholder="Hours">
+					<br>
+
+					<label for="civstat">Civil Status:</label>
+					<br>
+					<select id="dropdown">
+						<option value="select">--Select--</option>
+					  <option value="single">Single</option>
+					  <option value="married">Married</option>
+					  <option value="separated">Separated</option>
+					  <option value="widowed">Widowed</option>
+					</select>
+					<br>
+
+					<p>LOL</p>
+					<input type="radio" name="tanong" value="why">
+					<label for="why">Why?</label>
+					<br>
+					<input type="radio" name="tanong" value="when">
+					<label for="when">When?</label>
+					<br>
+					<input type="radio" name="tanong" value="where">
+					<label for="where">Where?</label>
+					<br>
+					<input type="radio" name="tanong" value="how">
+					<label for="how">How?</label>
+					<br>
+
+					<p>Which of these devices do you own?</p>
+					<input type="checkbox" name="" value="why">
+					<label for="why">Smartphone</label>
+					<br>
+					<input type="checkbox" name="" value="when">
+					<label for="when">Desktop Computer</label>
+					<br>
+					<input type="checkbox" name="" value="where">
+					<label for="where">Laptop</label>
+					<br>
+					<input type="checkbox" name="" value="how">
+					<label for="how">DSLR Camera</label>
+					<br><br>
+
+					<label for="comments" id="text-area-label">Comments</label>
+					<br>
+					<textarea placeholder="Enter your opinion here" rows="10"></textarea>
+					<br>
+
+					<button id="submit" type="submit">Submit</button>
+					
+			</form>
+			</div>
+		</div>
+		
+
+	</main>
+
+</body>
+</html>
+
